@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #2475b0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.input {
+  height: 30px;
+  width: 30em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  padding: 0 7px 0 7px;
+}
+.input:focus {
+  border: 1px solid #1287a5;
+}
+.submit-btn {
+  background-color: #26ae60;
+  color: white;
+  font-weight: bold;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  opacity: 0.9;
+}
+.delete-btn {
+  border: 1px solid #ccc;
+  /* margin-left: 100px; */
+  background-color: #e71c23;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+  /* position: relative;
+  left: 210px */
+  padding: 3px 20px;
+  float: right;
+}
+.delete-btn:hover {
+  opacity: 0.9;
+}
+/* .item {
+  margin-right: 5px;
+} */
+li {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+  width: 350px;
+  /* float: left; */
+}
+ul {
+  list-style-type: none;
+  margin: 25px 0;
+  padding: 0;
+}
+.counters {
+  font-weight: bold;
+  color: #2b2b52;
+}
